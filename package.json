@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "pm2 start pm2.config.js",
+    "stop": "pm2 stop post2mqtt"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "mqtt": "^3.0.0",
+    "restify": "^8.5.1"
+  }
+}
